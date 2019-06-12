@@ -1,0 +1,31 @@
+.topHeader {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 1%;
+	.appleIcon {
+		width: 10%;
+		text-decoration: none;
+		color: black;
+		.fa-apple {
+			display: flex;
+			justify-content: flex-end;
+		}
+	}
+}
+.navWrapper {
+	display: flex;
+	justify-content: space-evenly;
+	width: 90%;
+	a {
+		text-decoration: none;
+	}
+}
+.subNav {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 1%;
+}
+.subItem {
+	display: flex;
+	flex-flow: column wrap;
+}
